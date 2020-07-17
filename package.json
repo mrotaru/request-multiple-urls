@@ -1,0 +1,22 @@
+{
+  "name": "request-multiple-urls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "tape *.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nock": "^13.0.2",
+    "tape": "^5.0.1",
+    "tape-promise": "^4.0.0",
+    "webpack": "^4.43.0"
+  },
+  "dependencies": {
+    "deepmerge": "^4.2.2"
+  }
+}
