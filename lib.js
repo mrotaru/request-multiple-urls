@@ -27,8 +27,12 @@ const omit = (obj, properties = []) => properties.reduce((acc, prop) => {
   return acc
 }, deepMerge({}, obj))
 
+const toArray = (maybeArray) =>
+  Array.isArray(maybeArray) ? maybeArray : [maybeArray];
+
 export {
   disallowUndefinedRead,
   pick,
   omit,
+  toArray,
 }
